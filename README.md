@@ -3,8 +3,8 @@
 
 ## Why did we analyze the data?
 - The children's class has a higher library usage rate (25%) than the population ratio (13%).
- - Children are defined as 8~13 aged people.
- - (ref: A Study on the Status of Children and Youth Library Services in Korea)
+  - Children are defined as 8~13 aged people.
+  - (ref: A Study on the Status of Children and Youth Library Services in Korea)
 - Children use the library with their parents, and popular books in age from 20s to 40s, the age of the child's parents, always include children's books.
 - We want to know the trends of children's books over time from the perspective of parents and children.
 
