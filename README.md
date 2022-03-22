@@ -1,6 +1,12 @@
 # 2020 National Library of Korea Big Data Analysis Contest #
 - period : 08/25/2020 ~ 09/17/2020
 
+## Why did we analyze the data?
+- The children's class has a higher library usage rate (25%) than the population ratio (13%).
+ - Children are defined as 8~13 aged people.
+- Children use the library with their parents, and popular books in age from 20s to 40s, the age of the child's parents, always include children's books.
+- We want to know the trend in child books over time.
+
 ## Analysis Process Description ##
 **1. Data Preprocessing**
  - The data had its number  of the loaned book ranking. We knew the rank of loaned data, But Some data about the number of the loaned book had missing value. To infer the missing value, we replaced using the interpolation method.
