@@ -1,29 +1,29 @@
-# 2020 국립 중앙도서관 빅데이터 분석 활용 공모전 #
-- 준비 기간 : 2020.09.01 ~ 2020.09.17
+# 2020 National Library of Korea Big Data Analysis Contest #
+- period : 08/25/2020 ~ 09/17/2020
 
-## 분석 과정 설명 ##
+## Analysis Process Description ##
 **1. Data Preprocessing**
- - 데이터 대출권수에 관한 결측치는 보간법을 활용해 대체하였다.
- - ISBN 부가기호를 이용해 아동 도서만 필터링 진행
+ - The data had its number  of the loaned book ranking. We knew the rank of loaned data, But Some data about the number of the loaned book had missing value. To infer the missing value, we replaced using the interpolation method.
+ - We filtered children's books with ISBN(International Standard Book Number).
  
 **2. Exploratory Data Analysis**
- - 대출 도서 중, 아동 책 비율 확인
- - 아동 도서 중, 도서 분야별 대출권수 파악
- - 아동 도서 중, 도서 발행형태(단행본, 시리즈)에 따른 대출권수 파악
+ - Check the percentage of children's books among loaned books
+ - Identification of the number of children's books by book category
+ - Identification of the number of books issued by children's books according to the type of publication(single book, series)
 
-**3. Wordcloud 생성**
- - 아동이 대출한 경우와 부모가 대출한 아동 도서 별로 워드 클라우드 진행
- - 단, 시대별 대출 트렌드를 보기 위해 2000년 ~ 2019년도를 분석하였으며, 5년단위로 묶어 총 4개의 워드클라우드 생성
+**3. Wordcloud**
+ - Word Cloud is conducted by child loan and by child book borrowed by parents.
+ - The year 2000 to 2019 was analyzed to see loan trends by era and four word-clouds were created by grouping them into five-year units.
  
-## 느낀점 ##
-- 주제 선정의 중요성을 느꼈다.
-    - 사실 통계적 기법을 별로 사용하지않고, 데이터 전처리와 EDA만 했는데 분석 부문 1등한 것을 보면, 주제 선정 때문에 상을 받았다고 생각한다.
-    - 실제로, 본선에서 발표할 때, 심사위원들이 아동도서를 보는 아동과 부모의 시선 차이를 분석한 것이 참신하다고 하셨다.
-    - 또 수상확정 이후, 2020 도서관 빅데이터 성과 발표에서 우리팀이 1등자격으로 또 한번 더 발표를 했는데 도서관쪽에서 관심있어 하는 연령층이 8세~13세였다.
-      - 그래서 질문도 굉장히 많이 받았고, 서면인터뷰도 진행했을 때, 분석 결과를 활용해 도서관에서 부모와 아동의 시선차이를 극복할 수 있는 방안에 대한 생각도 물어보셨다 
+## What I did felt ##
+- I felt the importance of selecting a topic.
+    - Considering that we won first place in the analysis category even though we only preprocessing and EDA, I think we received an award because of the topic selection.
+    - When presenting in the finals, judges said it was novel to analyze the difference in views between children and parents who loaned children's books.
+    - In addition, after the award was confirmed, our team made another announcement at the 2020 Library Big Data Performance Announcement, and the age group that the library was interested in was 8 to 13.
+      - So we were asked a lot of questions, and when we conducted a written interview as the winner, they asked me about how to overcome the gap between parents and children in the library using the analysis results.
 
+## Need to improvement ##
+- There was no consideration for the series.
+  - When I created the word cloud, the book name for the series was the largest, which can also be seen as representing the children's "series" books that were popular by era. 
+  - Therefore, I think I would have gained better insight if I had done WordCloud after scaling the number of series. (or create each word cloud for a single book and series book.)
 
-## 아쉬웠던 점 ##
-- 시리즈 물에 대한 고찰이 없었다.
-  - 워드 클라우드를 생성하고 보니까, 시리즈 물에 대한 도서명이 가장 크게 나왔고, 이는 시대별 인기있었던 아동 "시리즈" 도서를 나타낸 것으로도 볼 수 있다.
-  - 따라서 시리즈 물에 대한 스케일링을 진행 한 뒤에 워드클라우드를 진행했다면, 더 좋은 인사이트를 얻지 않았을까하는 생각이 든다.
