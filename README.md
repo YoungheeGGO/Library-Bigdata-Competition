@@ -21,6 +21,10 @@
 **3. Wordcloud**
  - Word Cloud is conducted by child loan and by child book borrowed by parents.
  - The year 2000 to 2019 was analyzed to see loan trends by era and four word-clouds were created by grouping them into five-year units.
+
+**4. Conclusion**
+- ~~ 쓰기 ~~
+
  
 ## What I did felt ##
 - I felt the importance of selecting a topic.
