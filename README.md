@@ -23,14 +23,14 @@
  - The year 2000 to 2019 was analyzed to see loan trends by era and four word-clouds were created by grouping them into five-year units.
 
  
-## What I did felt ##
+## What I felt. ##
 - I felt the importance of selecting a topic.
     - Considering that we won first place in the analysis category even though we only preprocessing and EDA, I think we received an award because of the topic selection.
     - When presenting in the finals, judges said it was novel to analyze the difference in views between children and parents who loaned children's books.
     - In addition, after the award was confirmed, our team made another announcement at the 2020 Library Big Data Performance Announcement, and the age group that the library was interested in was 8 to 13.
       - So we were asked a lot of questions, and when we conducted a written interview as the winner, they asked me about how to overcome the gap between parents and children in the library using the analysis results.
 
-## Need to improvement ##
+## The point that need to improvement ##
 - There was no consideration for the series.
   - When I created the word cloud, the book name for the series was the largest, which can also be seen as representing the children's "series" books that were popular by era. 
   - Therefore, I think I would have gained better insight if I had done WordCloud after scaling the number of series. (or create each word cloud for a single book and series book.)
